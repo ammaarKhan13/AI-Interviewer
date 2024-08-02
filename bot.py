@@ -65,7 +65,6 @@ def main():
             if 'questions' in st.session_state:
                 st.session_state.current_question_index = 0
                 st.session_state.answers = []
-                st.session_state.start_time = datetime.now()
         
         if 'questions' in st.session_state:
             question_index = st.session_state.current_question_index
